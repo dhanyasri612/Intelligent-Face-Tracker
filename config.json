@@ -1,0 +1,16 @@
+{
+    "video": {
+        "input_type": "file",
+        "directory": "data/videos"
+    },
+    "detection": {
+        "skip_frames": 2,
+        "confidence_threshold": 0.5
+    },
+    "recognition": {
+        "similarity_threshold": 0.6
+    },
+    "tracking": {
+        "missing_frames_threshold": 15
+    }
+}
